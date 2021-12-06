@@ -1,0 +1,17 @@
+.music02Wrapper {
+  margin: auto;
+}
+
+.music02Player {
+  width: 1200px;
+  margin: 20px 0px;
+}
+
+
+@media screen and (max-width: 400px) {
+  
+  .music02Player {
+    width: 320px;
+    margin: 10px 0px;
+  }
+}

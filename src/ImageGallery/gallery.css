@@ -1,0 +1,21 @@
+
+.gallery03Wrapper {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.gallery03Image {
+  width: 1200px;
+  max-height: 800px;
+  object-fit: cover;
+}
+
+
+@media screen and (max-width: 400px) {
+  
+  .gallery03Image {
+    width: 320px;
+    max-height: 200px;
+    object-fit: cover;
+  }
+}

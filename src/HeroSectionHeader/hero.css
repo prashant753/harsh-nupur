@@ -1,0 +1,29 @@
+
+
+.hero01Image {
+  max-height: 750px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.hero01ImageText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: Josefin Sans;
+    font-size: 69px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 400px) {
+  
+  .hero01ImageText {
+      font-size: 15px;
+  }
+}
