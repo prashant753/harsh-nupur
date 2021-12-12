@@ -15,6 +15,7 @@
     "react-modal": "^3.14.4",
     "react-reveal": "^1.2.2",
     "react-scripts": "4.0.3",
+    "react-social-icons": "^5.6.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -23,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages  -b master -d build"
   },
   "eslintConfig": {
     "extends": [
