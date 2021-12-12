@@ -12,6 +12,7 @@ class MusicHeader extends React.PureComponent {
         <ReactAudioPlayer
           src={MusicFile}
           autoPlay
+          loop
           controls
           className="music02Player"
         />

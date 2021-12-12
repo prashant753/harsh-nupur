@@ -1,4 +1,6 @@
-
+.hero01Wrapper {
+  position: relative;
+}
 
 .hero01Image {
   max-height: 750px;
@@ -24,6 +26,6 @@
 @media screen and (max-width: 400px) {
   
   .hero01ImageText {
-      font-size: 15px;
+      font-size: 17px;
   }
 }

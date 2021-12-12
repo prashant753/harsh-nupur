@@ -1,5 +1,6 @@
 {
   "name": "photography",
+  "homepage": "https://prashant753.github.io/harsh-nupur",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +11,8 @@
     "react": "^17.0.2",
     "react-audio-player": "^0.17.0",
     "react-dom": "^17.0.2",
+    "react-gallery-carousel": "^0.2.6",
+    "react-modal": "^3.14.4",
     "react-reveal": "^1.2.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
@@ -20,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
