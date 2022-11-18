@@ -16,8 +16,10 @@ jobs:
       NAME_ADMIN: prashant753
     steps:
       - name: st1
-        if: ${{ github.actor != env.NAME_ADMIN }}
-        run: exit 1
+        run: | 
+          echo "$github.actor"
+          if ${{ github.actor != env.NAME_ADMIN }}
+          done
       - name: st2
         if: ${{ github.actor == env.NAME_ADMIN }}
         run: echo "ok"
